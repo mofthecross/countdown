@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
+    <title></title>
+  </head>
+  <body>
+    <form class="countdown-form">
+      <label class="countdown-form__item" for="date"> countdown to:</label>
+      <input class="countdown-form__item" type=date name"date" step=1 min=2017-00-00>
+      <button class="countdown-form__item countdown-form__start " type="button" name="button">start</button>
+    </form>
+
+    <div class="countdown">
+      <div id="days" class="container">
+        <h1 class="days__header">
+          <span class="days__header__digit">0</span>
+        </h1>
+        <h4 class="days__sub-header">Days</h4>
+      </div>
+
+      <div id="hours" class="container">
+        <h1 class="hours__header">
+          <span class="hours__header__digit">0</span>
+        </h1>
+        <h4 class="hours__sub-header">Hours</h4>
+      </div>
+
+      <div id="minutes" class="container">
+        <h1 class="minutes__header">
+          <span class="minutes__header__digit">0</span>
+        </h1>
+        <h4 class="minutes__sub-header">Minutes</h4>
+      </div>
+
+      <div id="seconds" class="container">
+        <h1 class="seconds__header">
+          <span class="seconds__header__digit">0</span>
+        </h1>
+        <h4 class="seconds__sub-header">Seconds</h4>
+      </div>
+
+    </div>
+    <script src="./main.js">
+    </script>
+  </body>
+</html>
