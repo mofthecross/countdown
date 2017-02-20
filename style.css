@@ -1,0 +1,46 @@
+.countdown-form {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.countdown-form__item {
+    margin-right: 5px;
+}
+
+.countdown {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    border: 1px solid lightgrey;
+    border-radius: 10%;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.hours__header, .days__header, .minutes__header, .seconds__header {
+    vertical-align: middle;
+    margin-bottom: 0px;
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+.hours__sub-header, .days__sub-header, .minutes__sub-header, .seconds__sub-header {
+    margin-top: 0px;
+    color: grey;
+    vertical-align: sub;
+    font-family: Roboto;
+    font-weight: normal;
+}
